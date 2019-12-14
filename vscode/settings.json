@@ -1,0 +1,47 @@
+{
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "cSpell.userWords": [
+    "kaldi",
+    "mitro"
+  ],
+  "breadcrumbs.enabled": true,
+  "window.zoomLevel": -1,
+  "editor.fontSize": 12,
+  "editor.renderWhitespace": "all",
+  "git.confirmSync": false,
+  "window.restoreWindows": "none",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10000,
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    120
+  ],
+  "editor.renderIndentGuides": true,
+  "eslint.alwaysShowStatus": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "go.useLanguageServer": false,
+  "go.formatTool": "goformat",
+  "go.autocompleteUnimportedPackages": true,
+  "go.gopath": "/home/mitro/go",
+  "go.testFlags": [
+    "-count=1"
+  ],
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "debug.onTaskErrors": "showErrors",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  }
+}
