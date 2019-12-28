@@ -1,0 +1,14 @@
+# This file is not automatically added to bashrc by the install script
+# Add the following lines to .bashrc manually to include it
+# if [ -f ~/.bashrc_add ]; then
+#    . ~/.bashrc_add
+# fi
+
+# Case-insensitive globbing (used in pathname expansion)
+shopt -s nocaseglob;
+
+# Append to the Bash history file, rather than overwriting it
+shopt -s histappend;
+
+# Autocorrect typos in path names when using `cd`
+shopt -s cdspell;
