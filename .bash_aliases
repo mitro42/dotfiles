@@ -5,6 +5,10 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
