@@ -44,4 +44,42 @@
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format"
   }
+  "workbench.list.automaticKeyboardNavigation": false,
+  "editor.renderLineHighlight": "all",
+  "workbench.colorCustomizations": {
+    "[Default Dark+]": {
+      "editor.lineHighlightBackground": "#a0aa3973",
+      "editor.lineHighlightBorder": "#957a40ca"
+    },
+    "editor.selectionBackground": "#bb28549c",
+    "editor.selectionHighlightBackground": "#94142a60"
+  },
+"editor.formatOnSave": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "TODO-MITRO",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "TODO-MITRO": {
+      "icon": "flame",
+      "foreground": "red",
+      "background": "yellow"
+    },
+    "BUG": {
+      "icon": "bug"
+    },
+    "FIXME": {
+      "icon": "flame"
+    }
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "workbench.editor.highlightModifiedTabs": true,
+    "debug.toolBarLocation": "docked",
+    "outline.showVariables": false,
 }
